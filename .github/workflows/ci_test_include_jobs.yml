@@ -30,7 +30,7 @@ on:
 jobs:
   call-boost-ci:
     name: Run Boost.CI
-    uses: boostorg/boost-ci/.github/workflows/reusable.yml@master
+    uses: boostorg/boost-ci/.github/workflows/reusable.yml@normalize-coverage-paths
     with:
       include_jobs: "coverage: yes"
       coverage_service: coveralls
