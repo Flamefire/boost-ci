@@ -33,3 +33,4 @@ jobs:
     uses: boostorg/boost-ci/.github/workflows/reusable.yml@master
     with:
       include_jobs: "coverage: yes"
+      coverage_service: coveralls
